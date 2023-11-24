@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['-', 'foggia-v2-map80-epoch100 - v1 4323']
+
+roboflow:
+  workspace: godway
+  project: wildfire-qbjo5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/godway/wildfire-qbjo5/dataset/1
